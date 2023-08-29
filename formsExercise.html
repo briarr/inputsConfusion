@@ -1,0 +1,59 @@
+<!-- Overall Box -->
+<fieldset>
+<legend>Customer Experience Survey:</legend>
+    <!-- First Num. Drop down -->
+    <label for="storeNumber">Store Number</label>
+    <select name="storeNumber" id="storeNumber">
+        <option value="3109">3109</option>
+        <option value="2421">2421</option>
+        <option value="5357">5357</option>
+    </select>
+    <!-- Second Box -->
+    <fieldset>
+        <legend>When you visited:</legend>
+        <label for="dateVisited">Date Visited</label>
+        <input type="date" name="today" id="today" value="yyyy-mm-dd">
+        <form>
+        <label for="time">Time</label>
+        <input type="time" name="time" id="time">
+        </form>
+
+
+    </fieldset>
+
+    <!-- Name, Email -->
+    
+    <label for="userName">Full Name</label>
+    <input type="text" id="userName" name="userName" required placeholder="Name">
+    <br>
+    <label for="email">Email</label>
+    <input type="email" name="Email" id="email" placeholder="Email">
+    
+    <!-- Satisfaction -->
+    <fieldset>
+    <legend>How would you rate your level of Satisfaction with your visit?</legend> 
+    <input type="radio" name="user" id="Satisfied" value="Satisfied">
+    <label for="Satisfied">Satisfied</label>
+    <br>
+    <input type="radio" name="user" id="neither" value="neither">
+    <label for="sausage">Neither Satisfied nor Dissatisfied</label>
+    <br>
+    <input type="radio" name="user" id="dis" value="dis">
+    <label for="cheese">Dissatisfied</label>
+    
+    
+    
+</fieldset>
+
+<!-- Experience -->
+<p>Tell us about your experience:</p>
+<input type="text" name="exp" id="exp" maxlength="20">
+
+<p>Times visited in the last month:</p>
+<input type="text" name="visit" id="visit" maxlength="2">
+
+
+<br>
+<input type="radio" name="agree" id="agree" value="agree">
+<label for="agree">please select this box if you are willing to be contacted about your experience</label>
+</fieldset>
